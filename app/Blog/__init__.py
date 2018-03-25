@@ -32,4 +32,4 @@ def create_app(config_name):
 
 
     from main.urls import main as main_blueprint, blog_admin as blog_admin_blueprint
-    from acc
+    from accounts.urls import accounts as accoun
